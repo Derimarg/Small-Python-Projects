@@ -1,12 +1,12 @@
 # Project 01: Bagels
 
-**Bagels**, by [AL Sweigart](mail:al@inventwithpython.com)
+**Bagels**, by [AL Sweigart](mailto:al@inventwithpython.com)
 
 A deductive logic game where you must guess a number based on clues.
 
 ## Overview
 
-In the game, the computer thinks of a secret 3-digit number with no repeated digits. The player must guess the number within a limited number of attems (10 by default). After each guess, the computer provides clues to help the player deduce the secret number:
+In the game, the computer thinks of a secret 3-digit number with no repeated digits. The player must guess the number within a limited number of attempts (10 by default). After each guess, the computer provides clues to help the player deduce the secret number:
 
 - **Pico**: One digit is correct but in the wrong position.
 - **Fermi**: One digit is correct and in the right position.
@@ -14,21 +14,25 @@ In the game, the computer thinks of a secret 3-digit number with no repeated dig
 
 For example, if the secret number is `248` and the player guesses `843`, the clues would be "Fermi Pico" (because '4' is correct and in the right position, and '8' is correct but in the wrong position).
 
+## Preview
+
+<img title="Bagels Game Preview" alt="Image of a game preview" src="./assets/bagels.png" width="100%" style="display: block; margin: 0 auto; max-width:500px;">
+
 ## How to play
 
 1. Run the script using Python:
 
-  ```bash
-  python bagels.py
-  ```
+```bash
+python bagels.py
+```
 
 or if you have python version 3 installed, use:
 
-  ```bash
-  python3 bagels.py
-  ```
+```bash
+python3 bagels.py
+```
 
-2. Follow the propmsps to guest the secret bumber base on the clues provided.
+2. Follow the prompts to guest the secret number base on the clues provided.
 3. Keep guessing until you either guess the number correctly or run out of guesses.
 4. You can choose to play again after each round.
 
@@ -37,7 +41,7 @@ or if you have python version 3 installed, use:
 You can modify the game by changing the following parameters in the code:
 
 - **NUM_DIGITS**: The length of the secret number (default is 3).
-- **MAX_GUESSES**: The maximun number of guesses allowed (default is 10).
+- **MAX_GUESSES**: The maximum number of guesses allowed (default is 10).
 
 Try experimenting with different values to increase the difficulty or to suit your preferences!
 
